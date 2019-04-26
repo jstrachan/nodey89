@@ -1,0 +1,26 @@
+Step: build-step-credential-initializer-9k7v9:
+
+{"level":"warn","ts":1556278385.3002229,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1556278385.3017228,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Step: build-step-git-source-cb-kubecd-environment-jstrachan-96hjz:
+
+{"level":"warn","ts":1556278386.889604,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/backport-container-name-fix\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1556278388.7143216,"logger":"fallback-logger","caller":"git-init/main.go:99","msg":"Successfully cloned \"https://github.com/cb-kubecd/environment-jstrachan-t5-staging\" @ \"03e3ee985fc3c2329f9c5ca7ecc3898838a365e1\" in path \"/workspace/source\""}
+Step: build-step-place-tools:
+
+Step: build-step-git-merge:
+
+Warning failed to load version: failed to parse version -dev+9e73adc0b: No Major.Minor.Patch elements found
+time="2019-04-26T11:33:10Z" level=info msg="got "
+Using SHAs from PULL_REFS=master:87549815ee90b093a7540c657986ca3097eaf3af,6:03e3ee985fc3c2329f9c5ca7ecc3898838a365e1
+ran git fetch --unshallow origin 03e3ee985fc3c2329f9c5ca7ecc3898838a365e1: 87549815ee90b093a7540c657986ca3097eaf3af: in 
+ran git checkout master in 
+ran git reset --hard 87549815ee90b093a7540c657986ca3097eaf3af in 
+ran clean --force -d . in 
+ran git merge 03e3ee985fc3c2329f9c5ca7ecc3898838a365e1 in 
+Step: build-step-build-helm-build:
+
+Adding missing Helm repo: chartmuseum.jenkins-x.io http://chartmuseum.jenkins-x.io
+Successfully added Helm repository chartmuseum.jenkins-x.io.
+Adding missing Helm repo: chartmuseum.**.35.240.40.252.nip.io http://chartmuseum.**.35.240.40.252.nip.io
+Successfully added Helm repository chartmuseum.**.35.240.40.252.nip.io.
